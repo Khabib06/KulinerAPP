@@ -2,59 +2,6 @@
 
 ## Kuliner Sekitar Kampus UDINUS
 
-KulinerAPP adalah aplikasi berbasis web yang digunakan untuk mencari, menambahkan, memberikan review, serta melakukan promosi tempat kuliner di sekitar Kampus UDINUS.
-
-Aplikasi ini dikembangkan menggunakan framework CodeIgniter 4 dengan integrasi beberapa teknologi pendukung seperti Leaflet Map, Midtrans Payment Gateway, dan WhatsApp Notification menggunakan WAHA API.
-
----
-
-# Fitur Aplikasi
-
-## User
-
-- Login dan Logout
-- Melihat daftar tempat kuliner
-- Melihat lokasi melalui peta
-- Menambahkan tempat kuliner
-- Memberikan rating dan review
-- Melakukan pembayaran promosi tempat kuliner
-- Mendapatkan notifikasi pembayaran berhasil
-
-## Admin
-
-- Dashboard Admin
-- Melihat jumlah data tempat, user, dan review
-- Approval tempat kuliner baru
-- Menghapus tempat yang tidak sesuai
-- Melihat riwayat pembayaran
-- Mengelola data promosi
-
----
-
-# Teknologi yang Digunakan
-
-## Backend
-
-- PHP 8.2
-- CodeIgniter 4
-- MySQL
-
-## Frontend
-
-- HTML
-- CSS
-- Bootstrap 5
-- JavaScript
-
-## Library / API
-
-- Leaflet JS untuk peta lokasi
-- OpenStreetMap
-- Nominatim Reverse Geocoding
-- Midtrans Payment Gateway# KulinerAPP
-
-## Kuliner Sekitar Kampus UDINUS
-
 KulinerAPP merupakan aplikasi berbasis web yang digunakan untuk mencari, menambahkan, memberikan ulasan, serta melakukan promosi tempat kuliner di sekitar Kampus Universitas Dian Nuswantoro (UDINUS).
 
 Aplikasi ini dibuat untuk membantu mahasiswa dan masyarakat sekitar dalam menemukan tempat kuliner dengan informasi lokasi, deskripsi, foto, dan review dari pengguna.
@@ -174,12 +121,6 @@ Contoh:
 - PlaceController
 - PaymentController
 - Dashboard Controller
-
----
-
-# Struktur Folder
-
-- WAHA WhatsApp API
 
 ---
 
@@ -365,14 +306,18 @@ Tambahkan screenshot:
 
 Link YouTube:
 
-Masukkan link video demo disini
-
 ---
 
 # Pengembang
 
 KulinerAPP
 
-Universitas Dian Nuswantoro (UDINUS)
+Anggota Kelompok:
+Muhammad Anjas Syahrazy  (A11.2024.15905)
+Khabib Muhasyim          (A11.2024.15922)
+Arya Saputra             (A11.2024.15930)
 
 Program Studi Teknik Informatika
+    Fakultas Ilmu Komputer
+Universitas Dian Nuswantoro (UDINUS)
+              2026
