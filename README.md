@@ -292,19 +292,18 @@ user123
 
 # Screenshot Aplikasi
 
-Tambahkan screenshot:
+Tambahkan screenshot
 
-- Halaman Login
-- Homepage
-- Dashboard Admin
-- Payment Midtrans
-- Riwayat Pembayaran
+- ![Dashboard Admin](https://github.com/Khabib06/KulinerAPP/blob/main/Dashboard%20Admin.jpeg)
+- ![Halaman Login](https://github.com/Khabib06/KulinerAPP/blob/main/Halaman%20Login.jpeg)
+- ![Payment Midtrans](https://github.com/Khabib06/KulinerAPP/blob/main/Payment%20Midtrans.jpeg)
+- ![Homepage](https://github.com/Khabib06/KulinerAPP/blob/main/homepage.jpeg)
 
 ---
 
 # Video Demo
 
-Link YouTube:
+Link YouTube: https://youtu.be/kpQ8baU-vOM
 
 ---
 
