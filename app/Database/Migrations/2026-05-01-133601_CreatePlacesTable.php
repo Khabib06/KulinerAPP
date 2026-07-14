@@ -1,0 +1,77 @@
+<?php
+
+namespace App\Database\Migrations;
+
+use CodeIgniter\Database\Migration;
+
+class CreatePlacesTable extends Migration
+{
+    public function up()
+{
+    $this->forge->addField([
+        'id' => [
+            'type' => 'INT',
+            'constraint' => 11,
+            'unsigned' => true,
+            'auto_increment' => true,
+        ],
+        'category_id' => [
+            'type' => 'INT',
+            'constraint' => 11,
+            'unsigned' => true,
+        ],
+        'nama_tempat' => [
+            'type' => 'VARCHAR',
+            'constraint' => 150,
+        ],
+        'alamat' => [
+            'type' => 'TEXT',
+        ],
+        'deskripsi' => [
+            'type' => 'TEXT',
+        ],
+        'foto' => [
+            'type' => 'VARCHAR',
+            'constraint' => 255,
+        ],
+        'latitude' => [
+            'type' => 'VARCHAR',
+            'constraint' => 50,
+        ],
+        'longitude' => [
+            'type' => 'VARCHAR',
+            'constraint' => 50,
+        ],
+        'status' => [
+            'type' => 'ENUM',
+            'constraint' => ['pending', 'approved'],
+            'default' => 'pending',
+        ],
+        'created_at' => [
+            'type' => 'DATETIME',
+            'null' => true,
+        ],
+        'updated_at' => [
+            'type' => 'DATETIME',
+            'null' => true,
+        ],
+    ]);
+
+    $this->forge->addKey('id', true);
+
+    $this->forge->addForeignKey(
+        'category_id',
+        'categories',
+        'id',
+        'CASCADE',
+        'CASCADE'
+    );
+
+    $this->forge->createTable('places');
+}
+
+    public function down()
+    {
+        //
+    }
+}
